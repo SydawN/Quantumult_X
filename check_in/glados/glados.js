@@ -92,7 +92,7 @@ function signin() {
       Referer: `https://glados.rocks/console/checkin`,
       "Accept-Language": `zh-cn`,
     };
-    const body = `{ "token": "glados_network" }`;
+    const body = `{ "token": "glados.network" }`;
     const signinRequest = {
       url: "https://glados.rocks/api/user/checkin",
       headers: header,
